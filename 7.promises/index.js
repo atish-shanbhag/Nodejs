@@ -2,7 +2,7 @@
 
 function delayFn(time) {
     return new Promise((resolve) => setTimeout(resolve, time))
-}
+} 
 
 
 console.log('Promise starts');
