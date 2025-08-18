@@ -32,7 +32,11 @@ app.get('/',(req, res)=>{
 });
 
 app.get('/about',(req, res)=>{
-    res.render('about', {title: 'About'})
+    const about = {
+        title: 'About Us',
+        description: 'This is about page'
+    };
+    res.render('about', {about})
 })
 
 
