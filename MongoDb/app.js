@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect("mongodb+srv://atishshanbhag03:atishshanbhag@cluster0.jwrspe5.mongodb.net/"
+mongoose.connect("mongodb+srv://atishshanbhag03:<password>@cluster0.jwrspe5.mongodb.net/"
 ).then(()=>console.log('Database connected successfully'))
 .catch((e)=>console.log(e));
 
